@@ -1,0 +1,31 @@
+Package: DoddLabTool
+Type: Package
+Title: Database and tool sets for Dodd Lab metabolomics data processing
+Version: 0.1.5
+Author: c(
+    person(given = "Zhiwei",
+           family = "Zhou",
+           role = c("aut", "cre"),
+           email = "zhouzw@stanford.edu",
+           comment = c(ORCID = "0000-0002-1249-6870"))
+           )
+Description: Database and tool sets for Dodd Lab metabolomics data processing.
+License: What license is it under?
+Encoding: UTF-8
+LazyData: true
+Depends: 
+    R (>= 2.10)
+Imports: 
+    crayon,
+    dplyr,
+    ggplot2,
+    gridExtra,
+    magrittr,
+    pbapply,
+    purrr,
+    readr,
+    readxl,
+    SpectraTools (>= 0.2.12),
+    stringr,
+    tidyr
+RoxygenNote: 7.2.3
